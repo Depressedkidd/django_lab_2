@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ book.title }} - Book Details</title>
+</head>
+<body>
+    <h1>{{ book.title }}</h1>
+    <p><em>{{ book.description }}</em></p>
+    <p><em>${{ book.cost }}</em></p>
+    <img src="{{ book.image.url }}" alt="{{ book.title }}" style="width: 400px">
+    <p><strong>{{ book.created_at }}</strong></p>
+</body>
+</html>
